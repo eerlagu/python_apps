@@ -22,21 +22,3 @@ stop_button = tkinter.Button(window, text='Stop', width=10, bg="yellow", command
 close_button = tkinter.Button(window, text='Close', width=10, bg="red", command=window.destroy).pack(side="bottom")
 
 window.mainloop()
-
-'''r = tk.Tk() 
-r.title('gymtime clock')
-
-tk.Label(r, text = "Active time").grid(row = 0) # this is placed in 0 0
-# 'Entry' is used to display the input-field
-tk.Entry(r).grid(row = 0, column = 1) # this is placed in 0 1
-
-tk.Label(r, text = "Rest time").grid(row = 1) # this is placed in 1 0
-tk.Entry(r).grid(row = 1, column = 1) # this is placed in 1 1
- 
-start_button = tk.Button(r, text='Start', width=10, bg="green", command=r.destroy)
-stop_button = tk.Button(r, text='Stop', width=10, bg="yellow", command=r.destroy)
-close_button = tk.Button(r, text='Close', width=10, bg="red", command=r.destroy)
-stop_button.pack(side = "right")
-start_button.pack(side = "left")
-close_button.pack(side="bottom") 
-r.mainloop()'''
