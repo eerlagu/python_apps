@@ -1,2 +1,2 @@
 # python_apps
-creating mobile apps using python
+creating apps using python
